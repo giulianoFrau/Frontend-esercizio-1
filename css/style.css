@@ -62,13 +62,13 @@ body {
   margin-bottom: 2rem;
   text-transform: uppercase;
   font-size: 4.5rem;
-  font-family: 'Big Shoulders Display', cursive; }
+  font-family: "Big Shoulders Display", cursive; }
 
 .text {
   color: rgba(255, 255, 255, 0.698);
   margin-bottom: 5rem;
   font-size: 1.5rem;
-  font-family: 'Lexend Deca', sans-serif; }
+  font-family: "Lexend Deca", sans-serif; }
 
 .butt {
   width: 70%;
@@ -82,7 +82,7 @@ body {
 
 .buttColor {
   color: #e38826;
-  font-family: 'Lexend Deca', sans-serif; }
+  font-family: "Lexend Deca", sans-serif; }
   .buttColor:hover {
     background-color: #e38826;
     color: white;
@@ -90,7 +90,7 @@ body {
 
 .buttColor1 {
   color: #006970;
-  font-family: 'Lexend Deca', sans-serif; }
+  font-family: "Lexend Deca", sans-serif; }
   .buttColor1:hover {
     background-color: #006970;
     color: white;
@@ -98,7 +98,7 @@ body {
 
 .buttColor2 {
   color: #004241;
-  font-family: 'Lexend Deca', sans-serif; }
+  font-family: "Lexend Deca", sans-serif; }
   .buttColor2:hover {
     background-color: #004241;
     color: white;
