@@ -3,7 +3,7 @@
 }
 
 .convertColumn {
-  @media only screen and (max-width: 76em) {
+  @media only screen and (max-width: 73em) {
     height: 1400px;
     display: flex;
     flex-direction: column;
@@ -13,14 +13,14 @@
   width: 18%;
   align-items: left;
   padding: 3%;
-  @media only screen and (max-width: 76em) {
+  @media only screen and (max-width: 73em) {
     width: 72%;
   }
 }
 .cardColor {
   background-color: hsl(31, 77%, 52%);
   border-radius: 10px 0 0 10px;
-  @media only screen and (max-width: 76em) {
+  @media only screen and (max-width: 73em) {
     border-radius: 10px 10px 0 0;
   }
 }
@@ -30,7 +30,7 @@
 .cardColor2 {
   background-color: hsl(179, 100%, 13%);
   border-radius: 0 10px 10px 0;
-  @media only screen and (max-width: 76em) {
+  @media only screen and (max-width: 73em) {
     border-radius: 0 0 10px 10px;
   }
 }

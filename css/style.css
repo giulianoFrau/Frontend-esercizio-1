@@ -25,7 +25,7 @@ body {
 .box {
   height: 1200px; }
 
-@media only screen and (max-width: 76em) {
+@media only screen and (max-width: 73em) {
   .convertColumn {
     height: 1400px;
     display: flex;
@@ -35,14 +35,14 @@ body {
   width: 18%;
   align-items: left;
   padding: 3%; }
-  @media only screen and (max-width: 76em) {
+  @media only screen and (max-width: 73em) {
     .card {
       width: 72%; } }
 
 .cardColor {
   background-color: #e38826;
   border-radius: 10px 0 0 10px; }
-  @media only screen and (max-width: 76em) {
+  @media only screen and (max-width: 73em) {
     .cardColor {
       border-radius: 10px 10px 0 0; } }
 
@@ -52,7 +52,7 @@ body {
 .cardColor2 {
   background-color: #004241;
   border-radius: 0 10px 10px 0; }
-  @media only screen and (max-width: 76em) {
+  @media only screen and (max-width: 73em) {
     .cardColor2 {
       border-radius: 0 0 10px 10px; } }
 
