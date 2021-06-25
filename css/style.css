@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+  @media only screen and (max-width: 105em) {
+    html {
+      font-size: 60%; } }
+  @media only screen and (max-width: 100em) {
+    html {
+      font-size: 55%; } }
+  @media only screen and (max-width: 95em) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (max-width: 85em) {
+    html {
+      font-size: 45%; } }
+  @media only screen and (max-width: 76em) {
+    html {
+      font-size: 60%; } }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6; }
+
+.box {
+  height: 1200px; }
+
+@media only screen and (max-width: 76em) {
+  .convertColumn {
+    height: 1400px;
+    display: flex;
+    flex-direction: column; } }
+
+.card {
+  width: 18%;
+  align-items: left;
+  padding: 3%; }
+  @media only screen and (max-width: 76em) {
+    .card {
+      width: 72%; } }
+
+.cardColor {
+  background-color: #e38826;
+  border-radius: 10px 0 0 10px; }
+  @media only screen and (max-width: 76em) {
+    .cardColor {
+      border-radius: 10px 10px 0 0; } }
+
+.cardColor1 {
+  background-color: #006970; }
+
+.cardColor2 {
+  background-color: #004241;
+  border-radius: 0 10px 10px 0; }
+  @media only screen and (max-width: 76em) {
+    .cardColor2 {
+      border-radius: 0 0 10px 10px; } }
+
+.title {
+  margin-top: 5rem;
+  color: rgba(255, 255, 255, 0.863);
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  font-family: 'Big Shoulders Display', cursive; }
+
+.text {
+  color: rgba(255, 255, 255, 0.698);
+  margin-bottom: 5rem;
+  font-size: 1.5rem;
+  font-family: 'Lexend Deca', sans-serif; }
+
+.butt {
+  width: 70%;
+  margin-top: 6rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 30px; }
+  @media only screen and (max-width: 50em) {
+    .butt {
+      width: 50%; } }
+
+.buttColor {
+  color: #e38826;
+  font-family: 'Lexend Deca', sans-serif; }
+  .buttColor:hover {
+    background-color: #e38826;
+    color: white;
+    border: 2px solid white; }
+
+.buttColor1 {
+  color: #006970;
+  font-family: 'Lexend Deca', sans-serif; }
+  .buttColor1:hover {
+    background-color: #006970;
+    color: white;
+    border: 2px solid white; }
+
+.buttColor2 {
+  color: #004241;
+  font-family: 'Lexend Deca', sans-serif; }
+  .buttColor2:hover {
+    background-color: #004241;
+    color: white;
+    border: 2px solid white; }

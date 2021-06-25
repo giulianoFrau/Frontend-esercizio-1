@@ -1,0 +1,96 @@
+.box {
+  height: 1200px;
+}
+
+.convertColumn {
+  @media only screen and (max-width: 76em) {
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.card {
+  
+  width: 18%;
+  align-items: left;
+  padding: 3%; 
+  @media only screen and (max-width: 76em) {
+    width: 72%;
+  } 
+}
+.cardColor {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+  @media only screen and (max-width: 76em) {
+    border-radius: 10px 10px 0 0;
+  } 
+}
+.cardColor1 {
+  background-color: hsl(184, 100%, 22%);
+}
+.cardColor2 {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+  @media only screen and (max-width: 76em) {
+    border-radius: 0 0 10px 10px ;
+  } 
+}
+
+.title {
+  margin-top: 5rem;
+  color: rgba(255, 255, 255, 0.863);
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  font-family: 'Big Shoulders Display', cursive;
+}
+ 
+.text {
+  color: rgba(255, 255, 255, 0.698);
+  margin-bottom: 5rem;
+  font-size: 1.5rem;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.butt {
+  width: 70%;
+  margin-top: 6rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border-radius: 30px;
+  @media only screen and (max-width: 50em) {
+    width: 50%;
+  
+  }
+
+}
+
+.buttColor {
+  color: hsl(31, 77%, 52%);
+  font-family: 'Lexend Deca', sans-serif;
+  &:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border:2px solid white;
+  }
+}
+
+.buttColor1 {
+  color: hsl(184, 100%, 22%);
+  font-family: 'Lexend Deca', sans-serif;
+  &:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border:2px solid white;
+  }
+}
+
+.buttColor2 {
+  color: hsl(179, 100%, 13%);
+  font-family: 'Lexend Deca', sans-serif;
+  &:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border:2px solid white;
+  }
+}
